@@ -1,4 +1,4 @@
-@extends('include.layout')
+@extends('frontend.include.layout')
 @section('content')
     <!-- //market-->
     <div class="market-updates">

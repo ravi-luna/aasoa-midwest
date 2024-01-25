@@ -13,12 +13,12 @@ class UserAuth extends Controller
 
     // load view page of register
     public function register(){
-        return view("register");
+        return view("backend.register");
     }
 
     // load view page of login
     public function login(){
-        return view("login");
+        return view("backend.login");
     }
 
     // Function for validate registration form
